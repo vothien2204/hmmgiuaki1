@@ -1,0 +1,120 @@
+.book-card {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.book-card:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.book-image {
+    display: block;
+    width: 220px;
+    height: 300px;
+    transition: all 0.3s ease;
+}
+
+/* The overlay effect */
+.book-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Black overlay with opacity */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.book-card:hover .book-overlay {
+    opacity: 1;
+}
+.hinh{
+  width: 400px;
+  height: 600px;
+}
+.book-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.book-description {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.book-action {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn {
+    padding: 8px 15px;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Roboto, sans-serif;
+  }
+  .bgts{
+    background: url(/images/anh-chup-trung-tam-dai-ngan-ha.jpg);
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 0 15px;
+  }
+  
+  .footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .footer-section p, .footer-section ul {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .footer-section a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-bottom {
+    background-color: #222;
+    padding: 10px;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+  }
+  .iconft{
+    width: 50px;
+    height: 50px;
+  }

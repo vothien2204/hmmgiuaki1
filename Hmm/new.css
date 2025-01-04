@@ -1,0 +1,19 @@
+.thien1 {
+  height: inherit;
+
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 5px 15px 0px;
+}
+.thien3 {
+  padding-left: 90px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.thien5 {
+  margin: 20px;
+  width: aotu;
+}
+.wrap-item {
+  width: 100%;
+}
